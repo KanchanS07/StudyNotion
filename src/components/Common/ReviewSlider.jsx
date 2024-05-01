@@ -35,7 +35,7 @@ function ReviewSlider() {
   // console.log(reviews)
 
   return (
-    <div className="text-white w-[100vw] h-[100vh] ">
+    <div className="text-white w-[100vw] h-[180px]">
       <div className="my-[50px] h-[184px] max-w-maxContentTab lg:max-w-maxContent flex flex-row ">
         <Swiper
           slidesPerView={4}
@@ -44,7 +44,7 @@ function ReviewSlider() {
           freeMode={true}
           autoplay={{
             delay: 2500,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
           }}
           // modules={[FreeMode, Pagination, Autoplay]}
 
